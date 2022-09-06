@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./* -type d -print | wc -|
+find -minedepth 1 -type d | wc-|
